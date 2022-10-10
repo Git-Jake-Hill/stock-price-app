@@ -3,7 +3,9 @@
         "browser": true,
         "es2021": true
     },
-    "extends": [ "airbnb", "plugin:prettier/recommended" 
+    "extends": [
+        "react-app" , "plugin:prettier/recommended"
+        // "airbnb", "plugin:prettier/recommended", "plugin:react/jsx-runtime"
     ],
     "overrides": [
     ],
@@ -16,6 +18,13 @@
     ],
     "rules": {
         "react/jsx-filename-extension": [1, {
-        "extensions": [".js", ".jsx"]}
-        ]}
+        "extensions": [".js", ".jsx"]}], 
+        "prettier/prettier": ["error",{
+            "endOfLine": "auto"}
+          ],
+          "indent": [
+            "error",
+            2
+        ]
+        }
 }

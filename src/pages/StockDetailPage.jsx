@@ -1,3 +1,5 @@
-export const StockDetailPage = () => {
-    return (<div>Stock Detail Page</div>)
+function StockDetailPage() {
+  return <div>Stock Detail Page</div>;
 }
+
+export default StockDetailPage;

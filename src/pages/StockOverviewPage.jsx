@@ -1,12 +1,15 @@
-import { AutoComplete } from "../components/AutoComplete";
-import { StockList } from "../components/StockList";
+import AutoComplete from "../components/AutoComplete";
+// import { AutoComplete } from "../components/AutoComplete.jsx";
+import StockList from "../components/StockList";
 
-export const StockOverviewPage = () => {
-    return (
-        <div>Stock Overview Page
-        <AutoComplete />
-        <StockList />
-        </div>
-        
-        )
+function StockOverviewPage() {
+  return (
+    <div>
+      Stock Overview Page
+      <AutoComplete />
+      <StockList />
+    </div>
+  );
 }
+
+export default StockOverviewPage;
